@@ -12,7 +12,7 @@ then GMailUI is for you.
 > Checkout the bookmarklet sample (you have to drag it to your bookmark bar and run it from within your GMail tab) - you can find the bookmarklet [here](http://joscha.github.com/gmailui/).
 
 
-GMailUI integrates nicely with [joscha/eventr](https://github.com/joscha/eventr) and [jamesyu/gmailr](https://github.com/joscha/gmailr) or rather [joscha/gmailr](https://github.com/jamesyu/gmailr).
+GMailUI integrates nicely with [joscha/eventr](https://github.com/joscha/eventr) and [jamesyu/gmailr](https://github.com/jamesyu/gmailr) or rather [joscha/gmailr](https://github.com/joscha/gmailr) for an extended CoffeeScript based version.
 
 ## Screenshots
 
