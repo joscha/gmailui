@@ -14,6 +14,8 @@ then GMailUI is for you.
 
 GMailUI integrates nicely with [joscha/eventr](https://github.com/joscha/eventr) and [jamesyu/gmailr](https://github.com/jamesyu/gmailr) or rather [joscha/gmailr](https://github.com/joscha/gmailr) for an extended CoffeeScript based version.
 
+If you are in the need for some nice button icons that blend in nicely, be sure to check out [AdamWhitcroft/CSS3.Gmail.Buttons](https://github.com/AdamWhitcroft/CSS3.Gmail.Buttons).
+
 ## Screenshots
 
 ![image](//raw.github.com/joscha/gmailui/gh-pages/images/dropdown.png)
