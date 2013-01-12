@@ -68,7 +68,7 @@ decorateGMail = (($, _, button) ->
 
 		container.append	"""
 							<div style="text-align: justify;">
-								<img src="//www.google.com/images/srpr/logo3w.png" data-tooltip="The Google logo" alt="Google logo" align="right" style="padding-left: 10px;">
+								<img src="//upload.wikimedia.org/wikipedia/commons/5/56/Chocolate_cupcakes.jpg" data-tooltip="The Google logo" alt="Google logo" align="right" style="padding-left: 10px; width: 200px;">
 								Soufflé sugar plum caramels. Fruitcake sweet roll caramels halvah gummies pastry candy canes. Cake macaroon powder jelly cake sweet roll jelly-o marzipan. Cotton candy jujubes gummies chocolate bar gingerbread lemon drops. Donut fruitcake macaroon wafer croissant. Croissant lemon drops danish macaroon. Gummies lemon drops halvah gingerbread cupcake cookie bonbon. Dragée wypas halvah
 							</div>
 							"""

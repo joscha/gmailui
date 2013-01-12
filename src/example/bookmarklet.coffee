@@ -7,9 +7,12 @@
 			load: [
 					'//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js' # GMailUI depends on jQuery
 					'//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js' # GMailUI depends on underscore
-					'//raw.github.com/joscha/eventr/master/lib/Eventr.js' # This is used to trigger the GMail compose button - not necessarily needed by GMailUI
 					'//raw.github.com/joscha/gmailui/master/lib/GMailUI.js' # Load GMailUI
-					'//raw.github.com/joscha/gmailui/master/lib/example/decorate.js' # Load the code that uses GMailUI
+					'//raw.github.com/joscha/eventr/master/lib/Eventr.js' # This is used to trigger the GMail compose button - not necessarily needed by GMailUI itself
+					'//raw.github.com/joscha/gmailui/master/lib/example/decorate.js' # Load the code that uses GMailUI and Eventr
+					# For local dev - you can safely remove this if you copy this sample
+					#'//localhost/GMailUI.js'
+					#'//localhost/example/decorate.js'
 					]
 			complete: ->
 				console.log "GMailUI and all dependencies have been loaded successfully, let's have some fun :-)"
