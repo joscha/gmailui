@@ -19,9 +19,9 @@ If you are in the need for some nice button icons that blend in nicely, be sure 
 
 ## Screenshots
 
-![image](//raw.github.com/joscha/gmailui/gh-pages/images/dropdown.png)
+![image](https://raw.github.com/joscha/gmailui/gh-pages/images/dropdown.png)
 
-![image](//raw.github.com/joscha/gmailui/gh-pages/images/modal.png)
+![image](https://raw.github.com/joscha/gmailui/gh-pages/images/modal.png)
 
 
 ## Features
