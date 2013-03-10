@@ -264,7 +264,7 @@ class GMailUI.Button extends GMailUI.OnAble
 
 class GMailUI.ButtonBarButton extends GMailUI.OnAble
 	@template: 	_.template 	"""
-							<div class="T-I J-J5-Ji T-I-Js-IF ar7 ns T-I-ax7 L3" 
+							<div class="T-I J-J5-Ji T-I-Js-IF ns T-I-ax7 L3" 
 								<% if(tooltip) { %>
 									data-tooltip="<%- tooltip %>"
 									aria-label="<%- tooltip %>"

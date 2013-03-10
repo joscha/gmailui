@@ -5,6 +5,9 @@ decorateGMail = (($, _, button) ->
 	popup = new GMailUI.Popup
 
 	popupButton = bar.append new GMailUI.ButtonBarPopupButton popup, '', 'GMailUI'
+	
+	# Folder (archive) icon
+	popupButton.addClass 'ar7'
 
 	popup.append new GMailUI.PopupLabel 'Checkboxes'
 
