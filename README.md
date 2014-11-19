@@ -1,4 +1,4 @@
-# GMailUI - a GMail user interface library
+# [![Build Status](https://travis-ci.org/joscha/gmailui.svg?branch=master)](https://travis-ci.org/joscha/gmailui) GMailUI - a GMail user interface library
 
 > _GMailUI is in no way affiliated with [Google, Inc](http://www.google.com)._
 
