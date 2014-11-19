@@ -43,11 +43,12 @@ If you are in the need for some nice button icons that blend in nicely, be sure 
 GMailUI is definitely not complete, yet. There are missing features as well as bugs, but the most important point is: **whenever GMail changes, GMailUI needs to be adapted**, so if you use GMailUI in your extension/bookmarklet, etc. _please_ send pull requests whenever you adapt or extend it. Your help is very much appreciated!
 
 ## Version history
-_2013-01-11_ - **0.1**: Initial version
+* _2014-11-19_ - **0.2.0**: build update, travis, bower component
+* _2013-01-11_ - **0.1**: Initial version
 
 
 ## Building from source
-You can build via `cake build` or use `cake watch` for continuous building during development.
+You can build via `grunt`.
 
 ## License
 MIT License, see LICENSE.md

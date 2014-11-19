@@ -1,0 +1,31 @@
+{
+  "name": "gmailui",
+  "version": "0.2.0",
+  "description": "a GMail user interface library",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "grunt travis"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joscha/gmailui.git"
+  },
+  "keywords": [
+    "gmail",
+    "ui",
+    "interface",
+    "google",
+    "mail"
+  ],
+  "author": "Joscha Feth <joscha@feth.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joscha/gmailui/issues"
+  },
+  "homepage": "https://github.com/joscha/gmailui",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-uglify": "^0.6.0"
+  }
+}

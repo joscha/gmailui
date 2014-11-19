@@ -1,0 +1,29 @@
+{
+  "name": "gmailui",
+  "version": "0.2.0",
+  "homepage": "https://github.com/joscha/gmailui",
+  "authors": [
+    "Joscha Feth <joscha@feth.com>"
+  ],
+  "description": "a GMail user interface library",
+  "main": "build/gmailui.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "gmail",
+    "ui",
+    "interface",
+    "google",
+    "mail"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "example"
+  ]
+}
