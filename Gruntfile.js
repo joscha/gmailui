@@ -24,13 +24,39 @@ module.exports = function(grunt) {
           'build/<%= pkg.name %>.js': 'src/index.coffee'
         }
       }
+    },
+
+    bump: {
+      options: {
+        files: ['package.json', 'bower.json'],
+        updateConfigs: ['pkg'],
+        commit: true,
+        commitMessage: 'Release v%VERSION%',
+        commitFiles: ['package.json', 'bower.json', 'build/**'],
+        createTag: true,
+        tagName: 'v%VERSION%',
+        tagMessage: 'Version %VERSION%',
+        push: true,
+        pushTo: 'origin',
+        gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
+        globalReplace: false
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-coffee');
+  grunt.loadNpmTasks('grunt-bump');
 
-  grunt.registerTask('default', ['coffee:compile', 'uglify']);
+  grunt.registerTask('build', ['coffee:compile', 'uglify']);
+  grunt.registerTask('default', 'build');
   grunt.registerTask('travis', ['coffee:compile']);
 
+  grunt.registerTask('release', 'Bump, build and release.', function(type) {
+    grunt.task.run([
+      'bump-only:' + (type || 'patch'),
+      'build',
+      'bump-commit'
+      ]);
+  });
 };
