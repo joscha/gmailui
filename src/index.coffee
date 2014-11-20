@@ -1,7 +1,7 @@
-((root) ->
+((root, $, _) ->
   GMailUI = {}
   root.GMailUI = GMailUI
-  
+
   class GMailUI.Helper
     @hover: (target, hoverClass) ->
       target.hover ((e) ->
@@ -548,4 +548,4 @@
         tooltip:   tooltip
       super GMailUI.PopupCheckbox.hoverClass, GMailUI.PopupCheckbox.selectedClass
       @setSelected selected
-) @
+) @, jQuery, _
