@@ -27,5 +27,9 @@
     "example",
     "Gruntfile.js",
     "*.md"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "lodash": "~2.4.1"
+  }
 }
