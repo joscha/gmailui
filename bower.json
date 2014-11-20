@@ -25,7 +25,6 @@
     "test",
     "tests",
     "example",
-    "src",
     "Gruntfile.js",
     "*.md"
   ]
