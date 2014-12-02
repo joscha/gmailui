@@ -2,7 +2,7 @@
   "name": "gmailui",
   "version": "0.2.4",
   "description": "a GMail user interface library",
-  "main": "build/index.js",
+  "main": "build/gmailui.min.js",
   "scripts": {
     "test": "grunt travis"
   },
