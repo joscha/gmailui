@@ -1,6 +1,6 @@
 {
   "name": "gmailui",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "a GMail user interface library",
   "main": "build/gmailui.min.js",
   "scripts": {
