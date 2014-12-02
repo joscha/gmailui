@@ -50,7 +50,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['coffee:compile', 'uglify']);
   grunt.registerTask('default', 'build');
-  grunt.registerTask('travis', ['coffee:compile']);
+  grunt.registerTask('travis', 'build');
 
   grunt.registerTask('release', 'Bump, build and release.', function(type) {
     grunt.task.run([
