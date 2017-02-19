@@ -1,5 +1,7 @@
 # [![Build Status](https://travis-ci.org/joscha/gmailui.svg?branch=master)](https://travis-ci.org/joscha/gmailui) GMailUI - a GMail user interface library
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/joscha/gmailui.svg)](https://greenkeeper.io/)
+
 > _GMailUI is in no way affiliated with [Google, Inc](http://www.google.com)._
 
 GMailUI is the missing piece for all those neat GMail extensions out there.
