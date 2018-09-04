@@ -28,6 +28,6 @@
     "grunt": "^1.0.1",
     "grunt-bump": "0.8.0",
     "grunt-contrib-coffee": "^1.0.0",
-    "grunt-contrib-uglify": "^3.0.0"
+    "grunt-contrib-uglify": "^4.0.0"
   }
 }
